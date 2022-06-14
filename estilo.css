@@ -1,6 +1,6 @@
     .header1{
         color: rgb(0, 0, 0);
-        background-color: rgb(103, 182, 103);
+        background-color: rgb(81, 170, 211);
         box-sizing: content-box;
         width: 90%;
         height: 120px;
@@ -10,7 +10,7 @@
 
     .header2{
         color: rgb(0, 0, 0);
-        background-color: rgb(103, 182, 103);
+        background-color: rgb(81, 170, 211);
         box-sizing: content-box;
         width: 92%;
         height: 60px;
@@ -59,7 +59,7 @@
     .ul1{
         list-style: none;
         text-align: center;
-        background-color: rgb(224, 69, 95);
+        background-color: rgb(69, 123, 224);
         width: 87%;
         height: 40px;
         margin-left: 5%;
@@ -69,7 +69,7 @@
     .ul2{
         list-style: none;
         text-align: center;
-        background-color: rgb(224, 69, 95);
+        background-color: rgb(69, 123, 224);
         width: 86%;
         height: 40px;
         margin-left: 1%;
@@ -96,19 +96,15 @@
     }
  
     aside{
-        background-color: bisque;
+        background-color: rgb(64, 121, 207);
     }
 
     section{
-        background-color: rgb(236, 173, 56);
+        background-color: rgb(83, 172, 231);
         padding: 10px 20px;
         text-align: center;
     }
 
-    h2{
-        text-align: center;
-        font-size: 40px;
-    }
 
     .elaside{
         font-size: 0px;
@@ -120,12 +116,14 @@
         padding-top: 8px;
         padding-left: 15px;
         padding-right: 1px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
+        overflow: hidden;
     }
     
     .row2{
         border: 3px solid #fff;
         margin-left: -7%;
+        overflow: hidden;
     }
 
     .col-md-8-1{
@@ -147,6 +145,7 @@
         float: left;
         margin-left: 50px;
         margin-top: 10px;
+        
     }
     
     .col-md-4-2{
@@ -156,6 +155,14 @@
         margin-right: 45px;
     }
     
+    .sectitle1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .sectitle2{
+        font-size: 30px;
+    }
 
     @media screen and (min-width: 800px) {
         .logo2{
